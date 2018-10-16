@@ -40,13 +40,7 @@ public class Main {
 		LinkedList<Empleado> empleados2 = DAOEmpleados.findAll();
 		imprimirEmpleados(empleados2);
 		
-		//-Busco por ID el empleado y sucursal y los borro de la BD
-		Empleado empleado = DAOEmpleados.find(99);
-		Sucursal sucursal = DAOSucursales.find(99);
-		imprimirEmpleado(empleado);
-		imprimirSucursal(sucursal);
-		DAOEmpleados.delete(empleado);
-		DAOSucursales.delete(sucursal);
+		
 		
 		
 	}
