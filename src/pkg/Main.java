@@ -25,8 +25,8 @@ public class Main {
 		imprimirEmpleados(empleados);
 		
 		//-Modifico los datos del Empleado y la Sucursal
-		e.setNombre("Pedro");
-		s.setNombre("Ferrocarril");
+		e.setNombre("Jorge");
+		s.setNombre("Nautico");
 		
 		//-Actualizo la información en la BD
 		DAOEmpleados.update(e);
