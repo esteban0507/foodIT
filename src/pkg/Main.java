@@ -16,13 +16,7 @@ public class Main {
 		DAOSucursales.insert(s);
 		DAOEmpleados.insert(e);
 		
-		//-Imprimo en consola todas las sucursales
-		LinkedList<Sucursal> sucursales = DAOSucursales.findAll();
-		imprimirSucursales(sucursales);
-		
-		//-Imprimo en consola todos los empleados
-		LinkedList<Empleado> empleados = DAOEmpleados.findAll();
-		imprimirEmpleados(empleados);
+	
 		
 		//-Modifico los datos del Empleado y la Sucursal
 		e.setNombre("Jorge");
